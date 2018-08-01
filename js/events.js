@@ -6,8 +6,11 @@ $('.tasty').on('load', function frameIt() {
   
 }
 
-$('  function pressIt() {
-  
+$('#typing').on('keydown', function pressIt() {
+  if ($('#typing').val() === "G") {
+    alert("You have pressed G!"); 
+    return; 
+  }
 }
 
 function submitIt() {
