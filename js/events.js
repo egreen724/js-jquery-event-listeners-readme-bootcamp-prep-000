@@ -1,12 +1,12 @@
-function getIt() {
-  $('p').on(click, )
-}
+  $('p').on("click", function getIt() {
+    alert('Hey!')
+  }
 
-function frameIt() {
+$('.tasty').on('load', function frameIt() {
   
 }
 
-function pressIt() {
+$('  function pressIt() {
   
 }
 
