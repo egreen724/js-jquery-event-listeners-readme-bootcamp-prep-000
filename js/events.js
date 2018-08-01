@@ -23,8 +23,11 @@ if ($( "input:first" ).val() === "correct") {
 $(document).ready(function(){
 
 getIt(); 
+
 frameIt();
+
 pressIt();
+
 submitIt();
 
 });
