@@ -6,8 +6,8 @@ $('.tasty').on('load', function frameIt() {
   
 }
 
-$('#typing').on('keydown', function pressIt() {
-  if ($('#typing').val() === "G") {
+$('form').on('keydown', function pressIt() {
+  if (key.which === ) {
     alert("You have pressed G!"); 
     return; 
   }
